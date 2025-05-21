@@ -17,9 +17,5 @@ if not api_key:
 client = genai.Client(api_key=api_key)
 
 # Generate content with temperature setting
-response = client.models.generate_content(
-    model="gemini-2.0-flash",
-    contents=input_text
-)
+response = client.models.generate_content(model="gemini-2.0-flash", contents=input_text)
 print(response.text)
-
