@@ -18,8 +18,8 @@ A simple Python script that demonstrates how to use the Google AI Gemini API for
 
 1. Clone this repository:
 ```bash
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/ggoni/google_ai_sandbox
+cd google_ai_sandbox
 ```
 
 2. Install the required packages:
